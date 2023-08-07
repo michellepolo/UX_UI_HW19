@@ -228,11 +228,21 @@ p, .me li{
     width: 100%;
   }
 
-@media screen and (max-width: 600px) {
-    body{
-        background-color: red;
+  @media screen and (max-width: 767px) {
+    .toolstable {
+      display: block;
+      background-color: red;
     }
-}
+  
+    .toolstable tr {
+      display: block;
+      margin-bottom: 20px;
+    }
+  
+    .toolstable td {
+      display: block;
+      width: 100%;
+    }
 
 /* Styles for the CTA button */
 #cta-button {
