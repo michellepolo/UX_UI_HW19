@@ -105,11 +105,12 @@ header{
 .icons-sm{
     height: 10%;
     width: 50px;
-    margin: 0 10px;
+    margin: 0 10px 10px;
 }
 .icons-sm img{
     width: 100%;
 }
+/* Fonts */
 h1{
     color: black;
     text-align: center;
@@ -117,21 +118,20 @@ h1{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
+h2{
+    color: black;
+    font-size: 28px;
+font-family: 'Playfair Display', serif;
+}
+p, .me li{
+    color: black;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+}
+
 .information{
     font-size: 24px;
     font: bold;
-}
-footer ul{
-    width: 100%;
-    background-color:#F5F5F1;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding-inline-start: 0px;
-}
-footer li{
-    list-style: none;
-    padding: 40px;
 }
 .flexcontainer{
     display: flex;
@@ -170,12 +170,7 @@ footer li{
          background-color: red;
           }   
         }
-h2{
-    color: black;
-    font-size: 28px;
-font-family: 'Playfair Display', serif;
-}
-button{
+button, .btn-secondary{
     background-color:#F4C8B7;
     border-radius:20px;
     border: none;
@@ -183,11 +178,7 @@ button{
     cursor: pointer;
     font-size: 14px;
 }
-p, .me li{
-    color: black;
-    font-size: 14px;
-    font-family: 'Work Sans', sans-serif;
-}
+
 .connect{
     display: flex;
     flex-direction: column;
@@ -227,7 +218,7 @@ p, .me li{
   .me {
     width: 100%;
   }
-
+/* Media toolstable */
   @media screen and (max-width: 767px) {
     .toolstable {
       display: block;
@@ -243,7 +234,7 @@ p, .me li{
       display: block;
       width: 100%;
     }
-
+  }
 /* Styles for the CTA button */
 #cta-button {
     background-color: #F4C8B7;
@@ -290,4 +281,15 @@ p, .me li{
     text-decoration: none;
     cursor: pointer;
   }
-  
+  footer ul{
+    width: 100%;
+    background-color:#F5F5F1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+footer li{
+    list-style: none;
+    padding: 40px;
+}
